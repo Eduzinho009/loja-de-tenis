@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.0.1/mammoth.browser.min.js"></script>
+    <style>
+        /* font nunito, ou roboto */
+        :root{
+            --bg-sup: #f9f4ef;
+            --bg-c: #eaddcf;
+            --negrito: #020826;
+            --t-conv: #4d4f57;
+            --bg-card: #fffffe;
+            --linhas: #fffffe;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        #pedido{
+            display: block;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 20px;
+            background-color: green;
+            color: white;
+            font-size: 1.4rem;
+        }
+        body{
+            background-color: var(--bg-c);
+        }
+        body a{
+            display: flex;
+            position: relative;
+            
+        }
+
+        .fundo-topo{
+            display: flex;
+            background-color: var(--bg-sup);
+            width: 100%;
+        }
+
+        .fundo-topo a{
+            padding-top: 15px;
+            padding-left: 3px;
+        }
+
+        .logo-topo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-left: 50%;
+            flex-direction: column;
+        }
+
+        .topo-img{
+            display: flex;
+            min-width: 20px;
+            max-width: 20px;
+            padding-right: 50%;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="fundo-topo">
+        <a href="../Loja/">
+            <img src="../Assets/seta-esquerda.png" alt="voltar" width="30px" height="30px">
+        </a>
+        <div class="logo-topo">
+            <img src="../Assets/U-removebg-preview.png" alt="img-logo" width="80px" height="auto">
+        </div>
+    </div>
+    <h1>Carrinho</h1>
+    <div id="..."></div>
+    <h2 id="..."></h2>
+    <button onclick="gerarDocumentoWord()">Realizar pedido</button>
+    <p id="...">
+        Pedido gerado com sucesso
+        <button id="sc" onclick="sucessClose()">❌</button>
+    </p>
+    <script src="script.js"></script>
+    
+</body>
+</html>
