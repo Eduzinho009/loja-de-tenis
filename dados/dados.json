@@ -1,0 +1,98 @@
+[
+    {
+        "id":1,
+        "descricao": "Tenis Nike Dunk Low",
+        "imagem": "../imagens/dados/tenis-2.jfif",
+        "preco": 700.00
+    },
+
+    {
+        "id":2,
+        "descricao": "Tenis Vans Old Skool",
+        "imagem": "../imagens/dados/tenis-1.webp",
+        "preco": 250.00
+    },
+
+
+    {
+        "id":3,
+        "descricao": "Tenis Nike SB Zoom Stefan Janoski",
+        "imagem": "../imagens/dados/tenis-3.jfif",
+        "preco": 350.00
+    },
+
+
+    {
+        "id":4,
+        "descricao": "Tenis Nike Air Force",
+        "imagem": "../imagens/dados/tenis-4.avif",
+        "preco": 400.00
+    },
+    {
+        "id":5,
+        "descricao": "Tenis Nike Air Jordan",
+        "imagem": "../imagens/dados/tenis-5.png",
+        "preco": 800.00
+    },
+    {
+        "id":6,
+        "descricao": "Tenis Adidas Yezzy",
+        "imagem": "../imagens/dados/tenis-6.webp",
+        "preco": 550.00
+    },
+    {
+        "id":7,
+        "descricao": "Tenis Anacapri Slip On",
+        "imagem": "../imagens/dados/tenis-7.webp",
+        "preco": 350.00
+    },
+    {
+        "id":8,
+        "descricao": "Tenis Anacapri Animal Print",
+        "imagem": "../imagens/dados/tenis-8.webp",
+        "preco": 300.00
+    },
+    {
+        "id":9,
+        "descricao": "Tênis Converse Chuck Taylor All Star ",
+        "imagem": "../imagens/dados/tenis-9.webp",
+        "preco": 250.00
+    },
+    {
+        "id":10,
+        "descricao": "Tênis LV Trainer",
+        "imagem": "../imagens/dados/tenis-10.webp",
+        "preco": 500.00
+    },
+    {
+        "id":11,
+        "descricao": "Tenis Dinossauro Rex",
+        "imagem": "../imagens/dados/tenis-11.webp",
+        "preco": 70.00
+    },
+    {
+        "id":12,
+        "descricao": "Tenis Molekinho",
+        "imagem": "../imagens/dados/tenis-12-.webp",
+        "preco": 100.00
+    },
+    {
+        "id":13,
+        "descricao": "Tenis Homen Aranha",
+        "imagem": "../imagens/dados/tenis-13.webp",
+        "preco": 120.00
+    },
+    {
+        "id":14,
+        "descricao": "Tênis Kidy",
+        "imagem": "../imagens/dados/tenis-14.webp",
+        "preco": 80.00
+    },
+    {
+        "id":15,
+        "descricao": "Tênis Pampili Yuyu Glitter",
+        "imagem": "../imagens/dados/tenis-15.webp",
+        "preco": 90.00
+    }
+]
+
