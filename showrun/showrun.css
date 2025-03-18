@@ -1,0 +1,75 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+
+
+}
+.s1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2vw;
+  background-image: url(./Assets/Imagens/img\ fundo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  background-position: center;
+}
+
+.s1-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+}
+
+.s1-left h1 {
+  color: white;
+}
+
+.s1-right {
+  width: 600px;
+}
+.s2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2vw;
+}
+.s2 img{
+    align-content:end
+}
+
+
+.wrap-img {
+  width: 400px;
+  overflow: hidden;
+  border-radius: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.s1 button {
+ align-items: end;
+  padding: 10px;
+  border-radius: 999px;
+  width: 100%;
+  border: none;
+  background: black;
+  color: white;
+  transition: all 200ms ease-in-out;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  min-height: 80px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 10vh;
+}
