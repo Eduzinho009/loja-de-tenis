@@ -27,7 +27,7 @@ body {
     display: block;
     margin: 0 auto;
 }
-.header .cta {
+.header button {
     display: inline-block;
     background: #000;
     color: #fff;
@@ -35,7 +35,7 @@ body {
     margin-top: 20px;
     text-decoration: none;
     font-weight: 600;
-    border-radius: 5px;
+    border-radius: 15px;
     font-family: "Roboto", sans-serif;
 
 }
@@ -66,14 +66,5 @@ body {
 .footer {
     text-align: center;
     padding: 20px;
-    background: #3d322c;
-    color: white;
-}
-.footer .icons {
-    margin-top: 10px;
-}
-.footer .icons i {
-    margin: 0 10px;
-    font-size: 1.5rem;
     color: white;
 }
