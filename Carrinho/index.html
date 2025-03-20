@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mammoth/1.0.1/mammoth.browser.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        /* font nunito, ou roboto */
+        :root {
+            --bg-sup: #f9f4ef;
+            --bg-c: #eaddcf;
+            --negrito: #020826;
+            --t-conv: #4d4f57;
+            --bg-card: #fffffe;
+            --linhas: #fffffe;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: var(--bg-c);
+            font-family: "Nunito", sans-serif;
+        }
+
+        .fundo-topo {
+            display: flex;
+            background-color: var(--bg-sup);
+            width: 100%;
+            padding: 10px;
+            align-items: center;
+        }
+
+        .logo-topo {
+            margin: auto;
+
+        }
+
+        section {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            background-color: var(--bg-card);
+            width: 90%;
+            max-width: 600px;
+            margin: 20px auto;
+            margin-top: 20px;
+            padding: 20px;
+            border: 2px solid gray;
+            border-radius: 10px;
+        }
+
+        section button{
+            cursor: pointer;
+        }
+
+        h1, h2 {
+            text-align: center;
+            font-family: "Roboto", sans-serif;
+            font-weight: 400;
+            display: block;
+            width: 100%;
+            border-bottom: 2px solid gray;
+            padding-bottom: 2px;
+        }
+
+        .botaoTotal {
+            margin-top: 10px;
+            padding: 10px;
+            border-radius: 999px;
+            border: none;
+            background-color: var(--bg-c);
+            color: var(--negrito);
+            cursor: pointer;
+            text-align: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-weight: 400;
+            border-bottom: 2px solid gray;
+        }
+
+        .div-pedido {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding: 10px;
+        }
+
+
+        #pedido {
+            /* esta fixo na tela */
+            position: fixed;
+            /* posicionamento vertical  */
+            bottom: 50px;
+            /* espaçamento da esquerda em 50 porcento */
+            left: 50%;
+            /* ajustando o eixo X para -50%,
+            combinando o left: 50% mais o translateX(-50%)
+            vc faz com que o elemento fique centralizado no meio*/
+            transform: translateX(-50%);
+            /* espaçamento interno, do topo e a base e as laterais */
+            padding: 20px 20px;
+            /* maximo de largura da tela é 90% */
+            max-width: 400px;
+            /* cor do fundo */
+            background-color: var(--bg-sup);
+            /* cor das letras */
+            color: var(--negrito);
+            /* arredondando as bordas */
+            border-radius: 999px;
+            /* borda */
+            border: 2px solid var(--negrito);
+            /* font */
+            font-family: "Nunito", sans-serif;
+            font-weight: 400;
+            font-size: 1.2rem;
+        }
+
+        #pedido button{
+            cursor: pointer;
+        }
+
+        .item-carrinho {
+            /* display flexivel */
+            display: flex;
+            /* alinhando itens no centro */
+            align-items: center;
+            /* espaçamento de cada item de 10 pixels */
+            gap: 10px;
+            /* espaçamento interno de 10 pixels */
+            padding: 10px;
+            /* borda na parte inferior de 2 pixels */
+            border-bottom: 2px solid gray;
+        }
+
+        .imagem-produto {
+            /* largura de 80 pixels */
+            width: 80px;
+            /* altura ded 80 pixels */
+            height: 80px;
+            /* arredondando as bordas */
+            border-radius: 5px;
+            object-fit: cover;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="fundo-topo">
+        <a href="../Loja/">
+            <img src="../Assets/Imagens/seta-esquerda.png" alt="voltar" width="30px" height="30px">
+        </a>
+        <div class="logo-topo">
+            <img src="../Assets/Imagens/U-removebg-preview.png" alt="img-logo" width="80px" height="auto">
+        </div>
+    </div>
+
+    <section id="s1">
+        <h1>Carrinho de compras</h1>
+        <div id="lista">
+        </div>
+    </section>
+    <section id="s2">
+        <div class="div-pedido">
+            <h2>Resumo do pedido</h2>
+            <h3 id="total"></h3>
+            <button class="botaoTotal" onclick="gerarDocumentoWord()">Realizar pedido</button>
+            <p id="pedido">
+                Pedido gerado com sucesso
+
+                <button id="sc" onclick="sucessClose()">❌</button>
+            </p>
+            <script src="script.js"></script>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
