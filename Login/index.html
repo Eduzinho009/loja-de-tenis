@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Loja de sapatos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Questrial&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="./assets/U__1_-removebg-preview.png" alt="logo" width="480px" height="auto" style="align-self: center;">
+            <p class="slogan">A LOJA PERFEITA PARA O SEU ESTILO</p>
+        </div>
+      
+       
+        <div class="right">
+            <div class="login-box">
+                <h1>Login</h1>
+                <input type="text" placeholder="Nome" id="nome">
+                <div class="password-container">
+                    <input type="password" placeholder="Senha" id="senha">
+                    <span onclick="showPassword()" class="eye-icon">👁</span>
+                </div>
+                <button onclick="login()">Entrar</button>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com" target="_blank">
+                    <img src="./assets/facebook-icon.png" alt="Facebook">
+                    </a>
+                    <a href="https://www.instagram.com/" target="_blank">
+                    <img src="./assets/instagram-icon.png" alt="Instagram">
+                </a>
+                    <a href="https://x.com/?lang=pt" target="_blank">
+                    <img src="./assets/twitter-icon.png" alt="Twitter">
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="error-div" id="error-modal">
+        <h3>Credenciais incorretas!!!</h3>
+        <button onclick="fecharError()">Fechar</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

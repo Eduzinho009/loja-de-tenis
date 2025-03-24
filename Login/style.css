@@ -1,0 +1,157 @@
+/* Importando a fonte (se necessário) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-image: url('./assets/fundo-login.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+/* Container principal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+/* Lado esquerdo */
+.left {
+    flex: 1;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+}
+.logo {
+    width: 200px;
+    margin: 0 auto;
+    
+}
+.left p{
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-top: 1px;
+    padding-bottom: 40px;
+    width: 100%;
+    position: absolute;
+    bottom:4rem;
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+/* Lado direito */
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    background: #f9f4ef;
+    padding: 30px;
+    border-radius: 30px;
+    width: 290px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+h1 { 
+    color: #020826;
+    margin-bottom: 20px;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* Inputs */
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid black;
+    border-radius: 999px;
+    font-size: 16px;
+    background: #fff;
+    color: #020826;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+      
+}
+/* Estilizandoo o campo da senha */
+.password-container {
+    position: relative;
+}
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+/* Botão */
+button {
+    width: 60%;
+    padding: 15px;
+    border: 1px solid black;
+    background: #fff;
+    color: #423f32;
+    font-size: 18px;
+    border-radius: 300px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+button:hover {
+    background: #b79f73;
+}
+/* Ícones sociais */
+.social-icons {
+    margin-top: 15px;
+}
+.social-icons img {
+    width: 25px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+/* Modal de erro */
+.error-div {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    text-align: center;
+}
+.error-div h3 {
+    color: #8c7851;
+    margin-bottom: 10px;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.error-div button {
+    background: #8c7851;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+}
