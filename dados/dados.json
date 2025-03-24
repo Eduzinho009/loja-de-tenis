@@ -2,7 +2,11 @@
     {
         "id":1,
         "descricao": "Tenis Nike Dunk Low",
+<<<<<<< HEAD
         "imagem": "../Assets/imagem-dados/tenis1.jpeg",
+=======
+        "imagem": "../Assets/Imagens/seta-esquerda.png",
+>>>>>>> origin/jean
         "preco": 700.00
     },
 
