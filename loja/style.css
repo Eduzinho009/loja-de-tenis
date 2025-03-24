@@ -76,3 +76,11 @@ a{
     margin-right: left;
 
 }
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    min-height: 60px;
+    gap: 25px;
+}
