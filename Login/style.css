@@ -1,13 +1,19 @@
 /* Importando a fonte (se necessário) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 body {
     background-image: url('./assets/fundo-login.png');
     background-repeat: no-repeat;
@@ -18,6 +24,7 @@ body {
     align-items: center;
     justify-content: center;
 }
+<<<<<<< HEAD
 
 /* Container principal */
 .container {
@@ -27,6 +34,14 @@ body {
     position: relative;
 }
 
+=======
+/* Container principal */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+>>>>>>> origin/dev
 /* Lado esquerdo */
 .left {
     flex: 1;
@@ -36,14 +51,22 @@ body {
     flex-direction: column;
     justify-content: center;
     position: relative;
+<<<<<<< HEAD
 }
 
+=======
+    width: 100%;
+}
+>>>>>>> origin/dev
 .logo {
     width: 200px;
     margin: 0 auto;
     
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 .left p{
     font-size: 14px;
     letter-spacing: 2px;
@@ -54,10 +77,16 @@ body {
     bottom:4rem;
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
+<<<<<<< HEAD
     font-weight: <weight>;
     font-style: normal;
 }
 
+=======
+    font-weight: weight;
+    font-style: normal;
+}
+>>>>>>> origin/dev
 /* Lado direito */
 .right {
     flex: 1;
@@ -65,11 +94,15 @@ body {
     justify-content: center;
     align-items: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 .login-box {
     background: #f9f4ef;
     padding: 30px;
     border-radius: 30px;
+<<<<<<< HEAD
     width: 100%;
     max-width: 350px;
     text-align: center;
@@ -77,19 +110,33 @@ body {
 }
 
 h1 {
+=======
+    width: 290px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+h1 { 
+>>>>>>> origin/dev
     color: #020826;
     margin-bottom: 20px;
     font-family: "Questrial", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 /* Inputs */
 input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
+<<<<<<< HEAD
     border: 2px solid #8c7851;
+=======
+    border: 1px solid black;
+>>>>>>> origin/dev
     border-radius: 999px;
     font-size: 16px;
     background: #fff;
@@ -100,12 +147,18 @@ input {
     
       
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 /* Estilizandoo o campo da senha */
 .password-container {
     position: relative;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 .eye-icon {
     position: absolute;
     right: 10px;
@@ -113,6 +166,7 @@ input {
     transform: translateY(-50%);
     cursor: pointer;
 }
+<<<<<<< HEAD
 
 /* Botão */
 button {
@@ -121,6 +175,15 @@ button {
     border: none;
     background: #8c7851;
     color: #fff;
+=======
+/* Botão */
+button {
+    width: 60%;
+    padding: 15px;
+    border: 1px solid black;
+    background: #fff;
+    color: #423f32;
+>>>>>>> origin/dev
     font-size: 18px;
     border-radius: 300px;
     cursor: pointer;
@@ -129,22 +192,34 @@ button {
     font-weight: 400;
     font-style: normal;
 }
+<<<<<<< HEAD
 
 button:hover {
     background: #716040;
 }
 
+=======
+button:hover {
+    background: #b79f73;
+}
+>>>>>>> origin/dev
 /* Ícones sociais */
 .social-icons {
     margin-top: 15px;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 .social-icons img {
     width: 25px;
     margin: 0 5px;
     cursor: pointer;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 /* Modal de erro */
 .error-div {
     display: none;
@@ -158,7 +233,10 @@ button:hover {
     border-radius: 10px;
     text-align: center;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 .error-div h3 {
     color: #8c7851;
     margin-bottom: 10px;
@@ -166,7 +244,10 @@ button:hover {
     font-weight: 400;
     font-style: normal;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev
 .error-div button {
     background: #8c7851;
     color: white;
@@ -175,5 +256,8 @@ button:hover {
     border-radius: 999px;
     cursor: pointer;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/dev
