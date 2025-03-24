@@ -21,7 +21,7 @@ $(document).ready(function () {
   
       // Percorre o carrinho e contabiliza os itens repetidos
       carrinho.forEach((item) => {
-        const chave = `${item.descricao}-${item.preco}-${item.imagem}`; // Identificador único incluindo imagem
+        const chave = `${item.descricao}-${item.preco}`; // Identificador único incluindo imagem
         if (contadorItens[chave]) {
           contadorItens[chave].quantidade++;
         } else {
@@ -39,15 +39,15 @@ $(document).ready(function () {
         });
   
         // Adicionando a imagem pequena
-        const imagem = $("<img>")
-          .attr("src", item.imagem)
-          .attr("alt", item.descricao)
-          .css({
-            width: "50px",
-            height: "50px",
-            marginRight: "10px",
-            borderRadius: "5px",
-          });
+        // const imagem = $("<img>")
+        //   .attr("src", item.imagem)
+        //   .attr("alt", item.descricao)
+        //   .css({
+        //     width: "50px",
+        //     height: "50px",
+        //     marginRight: "10px",
+        //     borderRadius: "5px",
+        //   });
   
         // Adicionando o texto com quantidade, descrição e preço
         const texto = $("<span>").text(
@@ -66,7 +66,7 @@ $(document).ready(function () {
           });
   
         // Montando a estrutura do item na lista
-        listItem.append(imagem, texto, removeButton);
+        listItem.append(texto, removeButton);
   
         // Adicionando o item na lista
         listaElement.append(listItem);
