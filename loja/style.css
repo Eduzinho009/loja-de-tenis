@@ -70,3 +70,9 @@ a{
     align-items: center;
     flex-direction: row;
 }
+.carrinho{
+    display: flex;
+    align-items: center;
+    margin-right: left;
+
+}
