@@ -3,7 +3,7 @@ function login() {
     var nome = document.getElementById("nome").value;
     var senha = document.getElementById("senha").value;
     if (nome === "admin" && senha === "1234") {
-        alert("Login bem-sucedido!");
+        window.location.href = "../loja/loja.html"
     } else {
         document.getElementById("error-modal").style.display = "block";
     }

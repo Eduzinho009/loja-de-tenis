@@ -1,3 +1,3 @@
 function visiteLoja(){
-    window.location.href = "../loja.html"
+    window.location.href = "../Login/index.html"
 }
