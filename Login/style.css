@@ -1,25 +1,11 @@
 /* Importando a fonte (se necessário) */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;600&display=swap');
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
 body {
     background-image: url('./assets/fundo-login.png');
     background-repeat: no-repeat;
@@ -30,29 +16,12 @@ body {
     align-items: center;
     justify-content: center;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
->>>>>>> dev
 /* Container principal */
 .container {
     display: flex;
     flex-wrap: wrap;
     position: relative;
 }
-<<<<<<< HEAD
-=======
-
-=======
-/* Container principal */
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-}
->>>>>>> origin/dev
->>>>>>> dev
 /* Lado esquerdo */
 .left {
     flex: 1;
@@ -62,30 +31,13 @@ body {
     flex-direction: column;
     justify-content: center;
     position: relative;
-<<<<<<< HEAD
     width: 100%;
 }
-=======
-<<<<<<< HEAD
-}
-
-=======
-    width: 100%;
-}
->>>>>>> origin/dev
->>>>>>> dev
 .logo {
     width: 200px;
     margin: 0 auto;
     
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
 .left p{
     font-size: 14px;
     letter-spacing: 2px;
@@ -96,22 +48,9 @@ body {
     bottom:4rem;
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
-<<<<<<< HEAD
     font-weight: weight;
     font-style: normal;
 }
-=======
-<<<<<<< HEAD
-    font-weight: <weight>;
-    font-style: normal;
-}
-
-=======
-    font-weight: weight;
-    font-style: normal;
-}
->>>>>>> origin/dev
->>>>>>> dev
 /* Lado direito */
 .right {
     flex: 1;
@@ -119,67 +58,27 @@ body {
     justify-content: center;
     align-items: center;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
 .login-box {
     background: #f9f4ef;
     padding: 30px;
     border-radius: 30px;
-<<<<<<< HEAD
     width: 290px;
     text-align: center;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 h1 { 
-=======
-<<<<<<< HEAD
-    width: 100%;
-    max-width: 350px;
-    text-align: center;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-h1 {
-=======
-    width: 290px;
-    text-align: center;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-h1 { 
->>>>>>> origin/dev
->>>>>>> dev
     color: #020826;
     margin-bottom: 20px;
     font-family: "Questrial", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
 /* Inputs */
 input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
-<<<<<<< HEAD
     border: 1px solid black;
-=======
-<<<<<<< HEAD
-    border: 2px solid #8c7851;
-=======
-    border: 1px solid black;
->>>>>>> origin/dev
->>>>>>> dev
     border-radius: 999px;
     font-size: 16px;
     background: #fff;
@@ -190,24 +89,10 @@ input {
     
       
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
 /* Estilizandoo o campo da senha */
 .password-container {
     position: relative;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
 .eye-icon {
     position: absolute;
     right: 10px;
@@ -215,24 +100,6 @@ input {
     transform: translateY(-50%);
     cursor: pointer;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
->>>>>>> dev
-/* Botão */
-button {
-    width: 60%;
-    padding: 15px;
-<<<<<<< HEAD
-    border: 1px solid black;
-    background: #fff;
-    color: #423f32;
-=======
-    border: none;
-    background: #8c7851;
-    color: #fff;
-=======
 /* Botão */
 button {
     width: 60%;
@@ -240,8 +107,6 @@ button {
     border: 1px solid black;
     background: #fff;
     color: #423f32;
->>>>>>> origin/dev
->>>>>>> dev
     font-size: 18px;
     border-radius: 300px;
     cursor: pointer;
@@ -250,46 +115,18 @@ button {
     font-weight: 400;
     font-style: normal;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
->>>>>>> dev
 button:hover {
     background: #b79f73;
 }
-<<<<<<< HEAD
-=======
-
-=======
-button:hover {
-    background: #b79f73;
-}
->>>>>>> origin/dev
->>>>>>> dev
 /* Ícones sociais */
 .social-icons {
     margin-top: 15px;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
 .social-icons img {
     width: 25px;
     margin: 0 5px;
     cursor: pointer;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
 /* Modal de erro */
 .error-div {
     display: none;
@@ -303,13 +140,6 @@ button:hover {
     border-radius: 10px;
     text-align: center;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
 .error-div h3 {
     color: #8c7851;
     margin-bottom: 10px;
@@ -317,13 +147,6 @@ button:hover {
     font-weight: 400;
     font-style: normal;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
 .error-div button {
     background: #8c7851;
     color: white;
@@ -332,11 +155,3 @@ button:hover {
     border-radius: 999px;
     cursor: pointer;
 }
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-
-
-=======
->>>>>>> origin/dev
->>>>>>> dev
