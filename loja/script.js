@@ -29,6 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 const cardBody = document.createElement("div")
                 cardBody.className = "card-body"
+                cardBody.style.margin = "10px"
 
                 const cardTitle = document.createElement("h5")
                 cardTitle.className = "card-title"
@@ -39,10 +40,13 @@ document.addEventListener("DOMContentLoaded", function () {
                 cardText.textContent = "Preço: $" + produto.preco.toFixed(2)
 
                 const btnAdicionarAoCarrinho = document.createElement("a")
-                btnAdicionarAoCarrinho.href = '#'
-                btnAdicionarAoCarrinho.className = "btn btn-primary btn-adicionar-ao-carrinho"
+                btnAdicionarAoCarrinho.href = '../Carrinho'
+                btnAdicionarAoCarrinho.className = "btn btn-dark btn-adicionar-ao-carrinho btn-sm w-100 rounded-pill";
+                btnAdicionarAoCarrinho.style.marginTop = "50px"; 
                 btnAdicionarAoCarrinho.setAttribute("data-indice", index)
-                btnAdicionarAoCarrinho.textContent = "Adicionar ao carrinho"
+                btnAdicionarAoCarrinho.textContent = "Comprar" 
+               
+
 
                 cardBody.appendChild(cardTitle)
                 cardBody.appendChild(cardText)
@@ -57,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function () {
         .catch((error) => console.error("Erro ao carregar o arquivo JSON", error))
 
         //Manipulador de eventos para o botao "Adicionar ao carrinho"
-        $("#produtos-container").on("click", ".btn-adicionar-ao-carrinho", function(){
+        $("#produtos-container").on("click", ".btn-adicionar-ao-carrinho ", function(){
             const indexDoProduto = $(this).data("indice")
             const produtoSelecionado = produtos[indexDoProduto]
             let carrinho = JSON.parse(localStorage.getItem("carrinho")) || [];
