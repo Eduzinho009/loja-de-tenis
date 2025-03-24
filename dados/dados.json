@@ -2,7 +2,7 @@
     {
         "id":1,
         "descricao": "Tenis Nike Dunk Low",
-        "imagem": "../imagens/dados/tenis-2.jfif",
+        "imagem": "../Assets/Imagens/seta-esquerda.png",
         "preco": 700.00
     },
 
