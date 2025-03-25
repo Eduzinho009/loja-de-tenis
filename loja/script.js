@@ -22,6 +22,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 card.className = "card"
                 card.style.width = "18rem"
                 card.style.margin = "10px"
+                card.style.marginLeft = "75px"
 
                 const imagem = document.createElement("img")
                 imagem.src = produto.imagem

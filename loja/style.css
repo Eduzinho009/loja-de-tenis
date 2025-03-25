@@ -13,14 +13,14 @@
 }
 
 .navbar {
-    background-color: #8c7851;
+    background-color: #f9f4ef;
 }
 
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: black;
+    background-color: #f9f4ef;
     min-height: 60px;
     gap: 20px;
 }
@@ -33,6 +33,9 @@ footer img {
 @media (max-width: 768px) {
     .carousel-item {
         margin-top: 90px; /
+    }
+    .card{
+        padding-left: 120px;
     }
 }
 
