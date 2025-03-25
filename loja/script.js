@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 cardText.textContent = "Preço: $" + produto.preco.toFixed(2)
 
                 const btnAdicionarAoCarrinho = document.createElement("a")
-                btnAdicionarAoCarrinho.href = '../Carrinho'
+                btnAdicionarAoCarrinho.href = '#'
                 btnAdicionarAoCarrinho.className = "btn btn-dark btn-adicionar-ao-carrinho btn-sm w-100 rounded-pill";
                 btnAdicionarAoCarrinho.style.marginTop = "50px"; 
                 btnAdicionarAoCarrinho.setAttribute("data-indice", index)
